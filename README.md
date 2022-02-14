@@ -1,13 +1,15 @@
 # ShubhamPreWorkAssignmentSolution
 # CheckPalindromeNumber
 
+
+
+
 package com.company;
 import java.util.Scanner;
 Public Class Main{
  public static void main(String[] args) {
         int sum, n, c=0, rem=0;
-
-        Scanner sc = new Scanner(System.in);
+  Scanner sc = new Scanner(System.in);
         System.out.print("Please enter the number");
         n = sc.nextInt();
         sum = n;
