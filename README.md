@@ -79,3 +79,27 @@ pacakage com.company
 
      }
  }
+ 
+ 
+ # Fibonacci series
+ package com.company
+  import java.util.Scanner;
+ class fibonacci{
+     public static void main(String[] args) {
+         Scanner sc = new Scanner(System.in);
+         int x=0, y=1, n;
+         int c;
+
+         System.out.println("Enter the maximum value");
+         n = sc.nextInt();
+         for (int i=0; i<=n; i++)
+         {
+             c = x+y;
+             System.out.println(c);
+             x=y;
+             y=c;
+
+         }
+
+     }
+}
