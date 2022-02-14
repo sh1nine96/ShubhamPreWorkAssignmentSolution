@@ -55,3 +55,27 @@ import java.util.Scanner;
              }
          }
      }
+     
+
+# Decreasing Star Pattern based on user input
+
+pacakage com.company
+ import java.util.Scanner;
+ public class Main{
+     public static void main(String[] args) {
+
+         Scanner sc = new Scanner(System.in);
+         System.out.println("Please enter the number of stars");
+         int n = sc.nextInt();
+
+         for(int i=1; i<=n; i++ )
+         {
+             for(int j=i; j<=n; j++)
+             {
+                 System.out.print("* ");
+             }
+             System.out.println();
+         }
+
+     }
+ }
