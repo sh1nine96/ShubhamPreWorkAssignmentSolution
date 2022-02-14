@@ -2,8 +2,6 @@
 # CheckPalindromeNumber
 
 
-
-
 package com.company;
 import java.util.Scanner;
 Public Class Main{
@@ -13,10 +11,9 @@ Public Class Main{
         System.out.print("Please enter the number");
         n = sc.nextInt();
         sum = n;
-
-        while(n>0);
+   while(n>0);
         {
-            rem= n%10;
+         rem= n%10;
             sum= (sum*10) + rem;
             n= n/10;
         }
