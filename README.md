@@ -3,15 +3,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 package com.company;
 import java.util.Scanner;
 Public Class Main{
